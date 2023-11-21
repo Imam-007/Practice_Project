@@ -1,0 +1,30 @@
+.wrapper{
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #344151;
+}
+
+.text{
+    color: #0398d4;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.box{
+    background-color: white;
+    display: flex;
+    color: #344151;
+    font-size: 25px;
+    gap: 10px;
+    padding: 1rem;
+    margin-top: 10px;
+
+}
+
+.minus, .plus{
+    padding: 0.4rem;
+}
